@@ -137,11 +137,5 @@ function actualizarBloqueos() {
 }
 
 actualizarBloqueos();
-function resetearMalla() {
-  aprobados.clear();
-  document.querySelectorAll(".ramo").forEach(ramo => {
-    ramo.classList.remove("aprobado");
-  });
-  actualizarBloqueos();
-}
+
 
